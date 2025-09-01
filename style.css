@@ -65,7 +65,7 @@ nav ul {
   list-style: none;
 }
 
-nav li a { padding: 8px 0; font-weight: 500; }
+nav li a { padding: 8px 0; font-weight: 500; color: #07b880 }
 
 .hamburger {
   display: none;
@@ -180,3 +180,4 @@ footer nav ul {
 }
 footer nav ul li a { color: #d1d5db; font-weight: 500; }
 footer p { font-size: 0.9rem; color: #9ca3af; }
+
