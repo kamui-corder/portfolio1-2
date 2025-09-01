@@ -81,7 +81,7 @@ nav li a { padding: 8px 0; font-weight: 500; color: #07b880 }
 
 @media (max-width: 768px) {
   nav ul {
-    display: none;
+    display: none; /* 最初は非表示 */
     flex-direction: column;
     gap: 15px;
     background: #fff;
@@ -93,8 +93,9 @@ nav li a { padding: 8px 0; font-weight: 500; color: #07b880 }
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
-  nav ul.active { display: flex; }
-  .hamburger { display: flex; }
+  nav ul.active {
+    display: flex; /* ハンバーガークリック時だけ表示 */
+  }
 }
 
 .hero {
@@ -180,4 +181,5 @@ footer nav ul {
 }
 footer nav ul li a { color: #d1d5db; font-weight: 500; }
 footer p { font-size: 0.9rem; color: #9ca3af; }
+
 
